@@ -1,1 +1,8 @@
-
+/* blocks/promo-banner/promo-banner.css */
+.promo-banner {
+    padding: 16px;
+  }
+  .promo-banner .promo-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
