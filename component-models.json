@@ -1,27 +1,23 @@
-[
+{
   "footer": {
-  "id": "footer",
-  "title": "Footer",
-  "description": "A site footer with navigation links, branding, and optional contact info",
-  "fields": [
-    {
-      "name": "Footer Text",
-      "type": "string",
-      "multiline": true
-    },
-    {
-      "name": "Links",
-      "type": "list",
-      "item": {
-        "type": "object",
-        "fields": [
-          { "name": "Label", "type": "string" },
-          { "name": "URL", "type": "string" }
-        ]
+    "id": "footer",
+    "title": "Footer",
+    "description": "A site footer with navigation links, branding, and optional contact info",
+    "fields": [
+      { "name": "Footer Text", "type": "string", "multiline": true },
+      {
+        "name": "Links",
+        "type": "list",
+        "item": {
+          "type": "object",
+          "fields": [
+            { "name": "Label", "type": "string" },
+            { "name": "URL", "type": "string" }
+          ]
+        }
       }
-    }
-  ]
-},
+    ]
+  },
 
   {
     "id": "image",
