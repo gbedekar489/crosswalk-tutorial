@@ -53,6 +53,7 @@
         "fragment",
         "form",
         "footer",
+        "teaser",
         "embed-adaptive-form"
       ]
     }
